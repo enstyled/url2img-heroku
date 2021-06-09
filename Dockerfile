@@ -12,4 +12,4 @@ ADD https://github.com/gen2brain/url2img/releases/download/1.4/url2img-1.4.tar.x
 RUN tar xf url2img-1.4.tar.xz
 
 # start daemon
-CMD ["/url2img-1.4/url2img -bind-addr $PORT"]
+CMD ["/url2img-1.4/url2img -bind-addr :$PORT"]
